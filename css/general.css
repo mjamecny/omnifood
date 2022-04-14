@@ -23,12 +23,13 @@ LETTER SPACING
 --- 02 COLORS ---
 primary color: #e67e22
 
-tints: #fdf2e9 #fae5d3
+tints: #fdf2e9 #fae5d3 #eb984e
 shades:#cf711f
 accents:
 greys: #6f6f6f (lightest gray allowed on #fdf2e9) #555 #333 
 
 --- 03 SHADOWS ---
+0 2.4rem 4.8rem rgba(0,0,0,0.075);
 
 --- 04 BORDER-RADIUS ---
 default: 9px
