@@ -9,3 +9,7 @@ Landing page for fictional food company. Built with HTML, CSS and JavaScript. Th
 - Images optimization
 - Implemented sticky navigation bar
 - Making the form work with Netlify forms
+
+## Hero
+
+![frontpage](https://i.imgur.com/8qbn0aP.png)
