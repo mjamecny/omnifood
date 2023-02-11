@@ -4,8 +4,8 @@ Landing page for fictional food company. Built with HTML, CSS and JavaScript. Th
 
 ## Features
 
-Optimized for different screens
-Implemented smooth scrolling with JS
-Images optimization
-Implemented sticky navigation bar
-Making the form work with Netlify forms
+- Optimized for different screens
+- Implemented smooth scrolling with JS
+- Images optimization
+- Implemented sticky navigation bar
+- Making the form work with Netlify forms
