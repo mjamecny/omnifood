@@ -50,15 +50,15 @@ SPACING SYSTEM (px)
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 62.5%;
   overflow-x: hidden;
   /* Does not work on Safari */
   /* scroll-behavior: smooth; */
 }
 
-body{
-  font-family: "Rubik",sans-serif;
+body {
+  font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -75,13 +75,13 @@ body{
   margin: 0 auto;
 }
 
-.grid{
+.grid {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
 }
 
-.grid:not(:last-child){
+.grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
 
@@ -101,7 +101,7 @@ body{
   grid-template-columns: repeat(5, 1fr);
 }
 
-.grid--center-v{
+.grid--center-v {
   align-items: center;
 }
 
@@ -113,7 +113,7 @@ body{
   color: #333;
 }
 
-.heading-primary{
+.heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
@@ -142,7 +142,7 @@ body{
 }
 
 .btn,
-.btn:link, 
+.btn:link,
 .btn:visited {
   display: inline-block;
   font-size: 2rem;
@@ -157,21 +157,21 @@ body{
   font-family: inherit;
 
   /* Put transition on original state */
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.btn--full:link, 
+.btn--full:link,
 .btn--full:visited {
   color: #fff;
   background-color: #e67e22;
 }
 
-.btn--full:hover, 
+.btn--full:hover,
 .btn--full:active {
   background-color: #cf711f;
 }
 
-.btn--outline:link, 
+.btn--outline:link,
 .btn--outline:visited {
   background-color: #fff;
   color: #555;
@@ -184,7 +184,7 @@ body{
   box-shadow: inset 0 0 0 3px #fff;
 }
 
-.btn--form{
+.btn--form {
   background-color: #45260a;
   color: #fdf2e9;
   align-self: end;
@@ -192,25 +192,24 @@ body{
 }
 
 .btn--form:active,
-.btn--form:hover{
+.btn--form:hover {
   background-color: #fff;
   color: #555;
-
 }
 
 .link:link,
-.link:visited{
+.link:visited {
   display: inline-block;
   color: #e67e22;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
 
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .link:hover,
-.link:active{
+.link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
@@ -236,22 +235,22 @@ body{
   color: #e67e22;
 }
 
-*:focus{
+*:focus {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 /* HELPER CLASSES */
 
-.margin-right-sm{
+.margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
-.margin-bottom-md{
+.margin-bottom-md {
   margin-bottom: 4.8rem !important;
 }
 
-.center-text{
+.center-text {
   text-align: center;
 }
 

@@ -8,6 +8,7 @@ btnNavEl.addEventListener('click', function () {
 
 //////////////////////// Smooth scrolling animation
 const allLinks = document.querySelectorAll('a:link')
+// console.log(allLinks)
 
 allLinks.forEach(function (link) {
   link.addEventListener('click', function (e) {
@@ -25,6 +26,7 @@ allLinks.forEach(function (link) {
     // Scroll to other links
     if (href !== '#' && href.startsWith('#')) {
       const sectionEl = document.querySelector(href)
+      // console.log(sectionEl)
       sectionEl.scrollIntoView({ behavior: 'smooth' })
     }
 
